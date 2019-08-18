@@ -1,0 +1,43 @@
+Dependencies for Project 'STM32_SolderingStation', Target 'STM32_SS': (DO NOT MODIFY !)
+F (.\main.c)(0x5AF3349C)(--c99 -c --cpu Cortex-M3 -g -O3 -Otime --apcs=interwork --split_sections -I .\Inc-I C:\Projects\STM32_SolderingStation\RTE-I C:\Projects\STM32_SolderingStation\RTE\Device\STM32F103C8-I "C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "C:\Program Files\Keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Program Files\Keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x582570AC)
+I (C:\Projects\STM32_SolderingStation\RTE\RTE_Components.h)(0x5AB28B8C)
+I (C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625EF4C)
+I (C:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x56FE7B1E)
+I (C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625DB90)
+I (C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625DB90)
+I (C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625DB90)
+I (C:\Program Files\Keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x582570AC)
+I (C:\Program Files\Keil\ARM\ARMCC\include\stdio.h)(0x56FE7B1E)
+I (C:\Program Files\Keil\ARM\ARMCC\include\math.h)(0x56FE7B16)
+I (.\Inc\st7735.h)(0x5ABA7F55)
+I (C:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x56FE7B1E)
+I (.\Inc\font5x7.h)(0x5AA2CF2B)
+I (.\Inc\font7x11.h)(0x5AA2F535)
+I (.\Inc\color565.h)(0x5A9A5A14)
+I (misc.h)(0x5AB93069)
+F (.\st7735.c)(0x5ABBC544)(--c99 -c --cpu Cortex-M3 -g -O3 -Otime --apcs=interwork --split_sections -I .\Inc-I C:\Projects\STM32_SolderingStation\RTE-I C:\Projects\STM32_SolderingStation\RTE\Device\STM32F103C8-I "C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "C:\Program Files\Keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\st7735.o --omf_browse .\objects\st7735.crf --depend .\objects\st7735.d)
+I (.\Inc\st7735.h)(0x5ABA7F55)
+I (C:\Program Files\Keil\ARM\ARMCC\include\string.h)(0x56FE7B1E)
+I (C:\Program Files\Keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x582570AC)
+I (C:\Projects\STM32_SolderingStation\RTE\RTE_Components.h)(0x5AB28B8C)
+I (C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625EF4C)
+I (C:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x56FE7B1E)
+I (C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625DB90)
+I (C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625DB90)
+I (C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625DB90)
+I (C:\Program Files\Keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x582570AC)
+I (.\Inc\font5x7.h)(0x5AA2CF2B)
+I (.\Inc\font7x11.h)(0x5AA2F535)
+I (.\Inc\color565.h)(0x5A9A5A14)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x57D287B0)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x582570AC)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Projects\STM32_SolderingStation\RTE-I C:\Projects\STM32_SolderingStation\RTE\Device\STM32F103C8-I "C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "C:\Program Files\Keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"--pd "__UVISION_VERSION SETA 520" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x582570AC)(--c99 -c --cpu Cortex-M3 -g -O3 -Otime --apcs=interwork --split_sections -I .\Inc-I C:\Projects\STM32_SolderingStation\RTE-I C:\Projects\STM32_SolderingStation\RTE\Device\STM32F103C8-I "C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include"-I "C:\Program Files\Keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include"-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Program Files\Keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x582570AC)
+I (C:\Projects\STM32_SolderingStation\RTE\RTE_Components.h)(0x5AB28B8C)
+I (C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm3.h)(0x5625EF4C)
+I (C:\Program Files\Keil\ARM\ARMCC\include\stdint.h)(0x56FE7B1E)
+I (C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625DB90)
+I (C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625DB90)
+I (C:\Program Files\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625DB90)
+I (C:\Program Files\Keil\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x582570AC)
